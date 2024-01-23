@@ -35,12 +35,17 @@ button {
   font-weight: bold;
 }
 
-.undo {
+.undo,
+.restore {
   height: fit-content;
   padding: 10px;
   position: absolute;
   right: 20px;
   margin-top: 30px;
+}
+
+.restore {
+  margin-top: 80px;
 }
 
 main {
